@@ -1,0 +1,204 @@
+@charset 'utf-8';
+
+:root {
+    --p0: rgba(252, 163, 17, 1);
+    --p1: rgba(20, 33, 61, 1);
+    --p2: #14213D;
+    --f0: 'Poppins', sans-seri;
+    --f1: 'Roboto', sans-serif;
+
+
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: 0;
+    font-family: var(--f0);
+    font-size: 1.7rem;
+
+}
+.cabecalho {
+    height: 80px;
+    line-height: 80px;
+    border-bottom: 1px solid #E5E5E5;;
+}
+.cabecalho .container{
+    display: flex;
+    justify-content: space-between;    
+    
+}
+.cabecalho .container .logo{
+font-size: 3rem;
+font-weight: bold;
+color: var(--p1);
+
+}
+.cabecalho .container .menu ul{
+    list-style: none;
+
+}
+.cabecalho .container .menu ul li {
+    display: inline;
+    margin-left: 10px;
+}
+.cabecalho .container .menu ul li a{
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    font-size: 1.8rem;
+    font-weight: 500;    
+    line-height: 27px;
+    letter-spacing: 0em;
+
+}
+.cabecalho .container .menu ul li a:hover{
+    border-bottom: 4px solid var(--p0);
+}
+.cabecalho .container .menu ul li div{
+    display: inline;
+    box-sizing: border-box;
+    align-self: center;
+}
+.cabecalho .container .menu ul li div{
+    display: inline;
+    box-sizing: border-box;
+    align-self: center;
+}
+.cabecalho .container .menu ul li div img{
+    position: relative;
+    top: 6.5px;
+}
+
+.principal {
+    width: 1200px;
+    margin: auto;
+}
+.principal h1 {
+    font-size: 3rem;
+    padding-left: 10px;
+    margin: 30px 0px 30px 0px;
+    border-left: 10px solid var(--p0);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.principal h1 span{
+    font-weight: 100;
+    font-size: 3rem;
+}
+.principal figure{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.principal figure figcaption{
+    margin-left: 50px;
+    color: var(--p1);
+}
+.principal figure figcaption h5{
+    font-weight: 500;
+    font-size: 3rem;
+    margin-bottom: 35px;
+
+}
+.principal figure figcaption h5 span{
+    color: var(--p0);
+    font-size: 3rem;
+    font-weight: 700;
+}
+aside{
+    margin: 60px 0px 60px 0px;
+}
+html{
+    font-size: 62.5%;
+}
+
+aside .boxs article{
+    color: var(--p1);
+    border-left: 8px solid var(--p0);
+    margin-bottom: 50px;
+    padding: 10px;
+    margin-right: 15px;
+    box-shadow: 1px 1px 3px var(--p1);
+}
+aside .boxs{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+aside button{
+    padding: 5px 16px 5px 16px ;
+    color: white;
+    background-color: var(--p0);
+    border-radius: 3px;
+}
+.why-my-dervicos h6{
+ font-size: 3rem;
+ font-weight: normal;
+ color: black;
+}
+.why-my-dervicos h6 span{
+ font-size: 3rem;
+ font-weight: bold;
+}
+.why-my-dervicos p span{
+    font-weight: bold;
+}
+.why-my-dervicos{
+    color: var(--p1);
+}
+.why-my-dervicos ul{
+    list-style: none;
+    margin-bottom: 50px;
+}
+.why-my-dervicos ul li{
+    margin: 10px;
+    margin-left: 50px;
+
+}
+.why-my-dervicos ul li::before{
+    content: '';
+    width: 1.2rem;
+    height: 1.2rem;
+    line-height: 1.2rem;
+    background-color: var(--p0);
+    padding: 10px;
+    display: inline-block;
+    border-radius: 5px;
+    border: 3px solid rgb(193, 124, 14);
+    margin-right: 10px;
+    position: relative;
+    top: 10px;
+}
+footer{
+    color: white;
+    padding: 20px;
+    height: 200px;
+    background-color: var(--p2);
+}
+.footer{
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr 2fr 1fr;
+    border-bottom: 4px solid beige;
+}
+.footer .footer div{
+    margin-left: 50px;
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+.footer a:hover{
+    text-decoration: none;
+    color: var(--p0);
+}
+.footer div ul{
+    list-style: none;
+}
+footer p{
+    text-align: center;
+    font-weight: 100;
+    margin: 10px;
+}
+abbr{
+    text-decoration: none;
+}
